@@ -1,0 +1,91 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aastha Computer Education Mission</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="ripple-effect"></div>
+
+    <header class="header">
+        <div class="logo">
+            <span class="logo-main">Aastha</span>
+            <span class="logo-sub">Edu Mission</span>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link" data-text="Home">Home</a></li>
+                <li><a href="#courses" class="nav-link" data-text="Courses">Courses</a></li>
+                <li><a href="#about" class="nav-link" data-text="About">About</a></li>
+                <li><a href="#contact" class="nav-link" data-text="Contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle">
+                <svg viewBox="0 0 24 24">
+                    <path d="M3 6h18M3 12h18M3 18h18" />
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Ignite Your Tech Journey</h1>
+                <p class="hero-desc">Aastha: Where Skills Meet Innovation</p>
+                <button class="hero-action" aria-label="Discover Now">Discover Now</button>
+            </div>
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </section>
+
+        <section id="courses" class="courses">
+            <h2 class="section-title">Explore Our Modules</h2>
+            <div class="courses-grid">
+                <div class="course-item" data-tilt>
+                    <h3>Digital Foundations</h3>
+                    <p>Core computing & software skills</p>
+                </div>
+                <div class="course-item" data-tilt>
+                    <h3>Code Craft</h3>
+                    <p>Advanced programming mastery</p>
+                </div>
+                <div class="course-item" data-tilt>
+                    <h3>Future Tech</h3>
+                    <p>AI, IoT & emerging trends</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title">Who We Are</h2>
+            <div class="about-text">
+                <p>Aastha Computer Education Mission pioneers a new era of learning, blending creativity with technology to empower the next generation of innovators.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Let’s Connect</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Name" class="form-field" required>
+                <input type="email" placeholder="Email" class="form-field" required>
+                <textarea placeholder="Message" class="form-field" required></textarea>
+                <button type="submit" class="form-submit">Send Signal</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Aastha Computer Education Mission | Crafted with Vision</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
